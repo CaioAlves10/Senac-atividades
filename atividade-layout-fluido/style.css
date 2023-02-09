@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: rgb(241, 210, 151);
+    width: 50%;
+    min-width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+#cabecalho {
+    background-image: url(https://www.datocms-assets.com/29255/1658861848-blog_banner.jpg?auto=format&fit=fill&max-w=1920);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20%;
+}
+
+#navegacao {
+    background: orange;
+    width: 25%;
+    float: left;
+}
+
+#navegacao a {
+    text-decoration: none;
+    color: black;
+}
+
+#navegacao ul li {
+    list-style: none;
+}
+
+#navegacao a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+#imgLoja {
+    object-fit: scale-down;
+    border-radius: 10px;
+}
+
+#box {
+    text-align: center;
+    background: orange;
+    width: 25%;
+    float: right;
+}
+
+footer {
+    background: orange;
+    clear: both;
+    height: 50px;
+    text-align: center;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}
