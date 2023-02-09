@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: rgb(241, 210, 151);
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+
+#cabecalho {
+    background-image: url(https://www.datocms-assets.com/29255/1658861848-blog_banner.jpg?auto=format&fit=fill&max-w=1920);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    height: 90px;
+}
+
+#navegacao {
+    background: orange;
+    width: 180px;
+    float: left;
+}
+
+#navegacao a {
+    text-decoration: none;
+    color: black;
+}
+
+#navegacao ul li {
+    list-style: none;
+}
+
+#navegacao a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+#box {
+    text-align: center;
+    background: orange;
+    width: 215px;
+    float: right;
+}
+
+footer {
+    background: orange;
+    clear: both;
+    height: 50px;
+    text-align: center;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}
