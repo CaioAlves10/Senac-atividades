@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div#titulo {
+    float: right;
+    background-color: rgb(20, 157, 211);
+    border-radius: 0px 0px 0px 20px;
+    margin-right: 500px;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+#unicoButton {
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#Tech {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    float: right;
+    background-color: rgb(240, 240, 240);
+    max-width: 50%;
+    margin: 2%;
+    margin-right: 500px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#div1 {
+    margin-right: 25px;
+}
+
+#titulo1 {
+    background-color: rgb(20, 157, 211);
+    max-width: 100%;
+    padding: 10px 0;
+}
+
+p {
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    float: left;
+    padding: 5px 10px 0 5px;
+}
+
+h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
