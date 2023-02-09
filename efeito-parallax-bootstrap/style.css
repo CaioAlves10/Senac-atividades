@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: brown;
+}
+
+.conteudo {
+    color: bisque;
+    background-color: brown;
+}
+
+.efeito1 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Matcha_ice_cream_001.jpg/800px-Matcha_ice_cream_001.jpg);
+}
+
+.efeito2 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Cheese_and_Pepperoni_Pizza_%284825046245%29.jpg/800px-Cheese_and_Pepperoni_Pizza_%284825046245%29.jpg);
+}
+
+.efeito3 {
+    background-image: url(https://mid.curitiba.pr.gov.br/2017/capa/00203412.jpg);
+}
+
+.efeito1, .efeito2, .efeito3 {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
